@@ -5,6 +5,8 @@ SRC = quadratice.cpp
 all: $(OUTPUT)
 $(OUTPUT): $(SRC)
 	$(CXX) $(CXXFLAGS) -o $(OUTPUT) $(SRC)
-# Clean up the executable and other files
+test: $(OUTPUT)
+	./$(OUTPUT) test
 clean:
 	rm -f $(OUTPUT)
+.PHONY: all clean test
