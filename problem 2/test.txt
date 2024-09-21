@@ -3,5 +3,21 @@ input number 1 : 10
 input number 2 : 20
 input number 3 : 30
 
-Output:
+Expected Output:
 The Largest Number is : 30
+
+Input:
+input number 1 : 40
+input number 2 : 60
+input number 3 : 50
+
+Expected Output:
+The Largest Number is : 60
+
+Input:
+input number 1 : 80
+input number 2 : 70
+input number 3 : 60
+
+Expected Output:
+The Largest Number is : 80
