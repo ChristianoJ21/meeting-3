@@ -1,0 +1,33 @@
+Input:
+a = 1
+b = 3
+c = 2
+
+Expected Output:
+x1 = -1
+x2 = -2
+
+Input:
+a = 1
+b = 4
+c = 4
+
+Expected Output:
+x1 = -2
+x2 = -2
+
+Input:
+a = 4
+b = 1
+c = 3
+
+Expected Output:
+There are no real roots
+
+Input:
+a = 0
+b = 1
+c = 2
+
+Expected Output:
+value a must be more or less than 0
